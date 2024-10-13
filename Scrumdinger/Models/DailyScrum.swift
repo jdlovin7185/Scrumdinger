@@ -19,8 +19,17 @@ extension DailyScrum {
     [
         DailyScrum(title: "Design", 
                    attendees: ["Petty Pablo", "Lil Jon", "Eastside Boyz"],
-                   lengthInMinutes: 20, theme: .yellow),
-        DailyScrum(title: "App Dev", attendees: ["Lil Wayne", "Birdman", "Future"], lengthInMinutes: 10, theme: .orange),
-        DailyScrum(title: "Web Dev", attendees: ["Fred Again...", "Skrillex", "Diplo"], lengthInMinutes: 5, theme: .poppy)
+                   lengthInMinutes: 20, 
+                   theme: .yellow),
+        
+        DailyScrum(title: "App Dev", 
+                   attendees: ["Lil Wayne", "Birdman", "Future"],
+                   lengthInMinutes: 10,
+                   theme: .orange),
+        
+        DailyScrum(title: "Web Dev", 
+                   attendees: ["Fred Again...", "Skrillex", "Diplo"],
+                   lengthInMinutes: 5,
+                   theme: .poppy)
     ]
 }
